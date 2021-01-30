@@ -1,5 +1,4 @@
-const electronConfigs = require('./webpack.electron.js');
+const electronConfigs = require("./webpack.electron.js");
+const reactConfigs = require("./webpack.react.js");
 
-module.exports = [
-  electronConfigs
-];
+module.exports = [electronConfigs, reactConfigs];
